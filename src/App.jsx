@@ -102,6 +102,7 @@ function App() {
         const permit = await getPermit(contractAddress, provider);
         client.storePermit(permit);
         const permission = client.extractPermitPermission(permit);
+        console.log(permission);
         const response = await contract.getSealedOutput(permission);
         const plaintext = client.unseal(contractAddress, response);
         console.log(`SealOutput: ${plaintext}`)

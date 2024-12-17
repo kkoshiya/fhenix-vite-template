@@ -2,6 +2,11 @@
 
 This template provides a minimal setup to get React working in Vite with Fhenix Nitrogen and FhenixJs.
 
+If you run into this bug...
+
+![alt text](telegram-cloud-photo-size-1-5121057479353019720-y.jpg)
+
+change line 10 to this: import wasm from "./tfhe_bg-browser.wasm?url";
 
 
 Currently, two official plugins are available:

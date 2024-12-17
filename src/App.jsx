@@ -7,7 +7,7 @@ import contractABI from './abi/sampleAbi.json';  // Replace with the path to you
 
 // Your contract address (replace with actual deployed contract address)
 //const contractAddress = '0x29E6Bbd943D17aB25039D3083A7fF314f58a1613'; //helium
-const contractAddress = '0x6879f8E75590013FF71a05dD49E7C21Ac73bC2E6'; //nitrogen
+const contractAddress = '0x62CaE4060C13563dF73c13a2A69C17AF98ede3Ca'; //nitrogen
 
 
 function App() {
